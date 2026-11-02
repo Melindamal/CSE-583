@@ -2,7 +2,7 @@
 
 
 ## AI assistance disclosure
-I used **Claude** for this homework. It helped explained pandas functions and debug errors. I ran all the code myself, looked at the output, and wrote the comments in `hw1.py` based on what I saw in my data.
+I used **Claude** for this homework. It helped explained pandas functions and debug errors. It also helped me set up the `.gitignore`. I ran all the code myself, looked at the output, and wrote the comments in `hw1.py` based on what I saw in my data.
 
 ## Process
 I started by setting up the folders and downloading the data, then read it in with pandas. The dates came in as plain strings, so I converted them to datetimes, which let me pull out the hour and year. I added a Total column (East + West), filtered to 2016, and checked for missing data. There was only one missing hour, March 13 at 2 AM. I think that's because of daylight saving time (clocks skip that hour), but I didn't verify that. I dropped it.
